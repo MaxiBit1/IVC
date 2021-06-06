@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IVC</string>
+    <string name="Bluetooth_not_have">Ваш bluetooth не поддерживается</string>
+    <string name="bluetooth_off">Bluetooth выключен</string>
+    <string name="bluetooth_on_or_off">Вкл./выкл. Bluetooth</string>
+    <string name="Search_devices">Поиск устройств</string>
+</resources>

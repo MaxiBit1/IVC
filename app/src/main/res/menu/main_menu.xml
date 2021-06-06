@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item
+     android:id="@+id/action_bluetooth"
+     android:orderInCategory="1"
+     android:title="Подключение к bluetooth"/>
+ <item
+     android:id="@+id/action_make_arduino"
+     android:orderInCategory="2"
+     android:title="Работа с ИВС"/>
+</menu>

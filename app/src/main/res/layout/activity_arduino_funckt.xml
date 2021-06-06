@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Arduino_funckt">
+    <FrameLayout
+        android:id="@+id/Frame_layout_1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+        android:id="@+id/OFF_Text"
+        android:text="Нет сопряжения с системой"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/Liner_control"
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Switch
+            android:id="@+id/switch_rele1"
+            android:text="Включить реле"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+<!--        <Button-->
+<!--            android:id="@+id/button_rele"-->
+<!--            android:text="Включить реле"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="100dp"/>-->
+    </LinearLayout>
+
+</LinearLayout>
